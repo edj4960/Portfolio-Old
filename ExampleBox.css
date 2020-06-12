@@ -1,0 +1,58 @@
+
+.box {
+    width: 16rem;
+    text-align: center;
+    background: rgb(200,200,200);
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .box-image {
+    opacity: 1;
+    transition: opacity 0.5s;
+    /* filter: alpha(opacity=40); msie */
+  }
+
+  .box-image-hidden {
+    opacity:.2;
+    transition: opacity 0.5s;
+  }
+  
+  .box-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-size: 28px;
+    width: 14rem;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .visible {
+    opacity: 1;
+    transition: opacity .5s;
+  }
+
+  .hidden {
+    opacity: 0;
+    transition: opacity .5s;
+  }
+
+  .box-button {
+    position: absolute;
+    top:85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .modal-header {
+    font-family: 'Oswald', sans-serif;
+    background: rgb(188,208,199)
+  }
+
+  .example-modal {
+    max-width: 75rem;
+  }
